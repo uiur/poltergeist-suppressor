@@ -28,7 +28,7 @@ Finished in 3.7 seconds
 ```
 
 
-Use poltergeist-suppressor:
+After:
 
 ```
 % rspec ./spec/example_spec.rb
