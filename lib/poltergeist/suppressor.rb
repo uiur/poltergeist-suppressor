@@ -29,3 +29,9 @@ module Capybara::Poltergeist
     end
   end
 end
+
+Capybara.register_driver :poltergeist do |app|
+  Capybara::Poltergeist::Driver.new(app,
+    phantomjs_logger: Capybara::Poltergeist::Suppressor.new
+  )
+end
