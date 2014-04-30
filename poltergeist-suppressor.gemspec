@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Poltergeist::Suppressor::VERSION
   spec.authors       = ["Kazato Sugimoto"]
   spec.email         = ["uiureo@gmail.com"]
-  spec.description   = %q{A noisy warnings suppressor for poltergeist.}
+  spec.description   = %q{A noisy warnings suppressor for capybara/poltergeist. This gem silences noisy phantomjs warnings such as 'CoreText performance note...'.}
   spec.summary       = %q{A noisy warnings suppressor for poltergeist.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/uiureo/poltergeist-suppressor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
