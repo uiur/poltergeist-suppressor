@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Poltergeist::Suppressor::VERSION
   spec.authors       = ["Kazato Sugimoto"]
   spec.email         = ["uiureo@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A noisy warnings suppressor for poltergeist.}
+  spec.summary       = %q{A noisy warnings suppressor for poltergeist.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
